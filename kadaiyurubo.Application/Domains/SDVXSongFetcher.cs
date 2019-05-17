@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using kadaiyurubo.Application.Domains.Entities;
+﻿using System.Threading.Tasks;
 using kadaiyurubo.Application.Repositories;
+using kadaiyurubo.Application.Domains.Entities;
 
 namespace kadaiyurubo.Application.Domains
 {
