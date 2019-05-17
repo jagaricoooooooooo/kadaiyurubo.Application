@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domains\Entities\" />
     <Folder Include="Infrastructures\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
