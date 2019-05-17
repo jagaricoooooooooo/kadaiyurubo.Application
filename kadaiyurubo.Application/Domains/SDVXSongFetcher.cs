@@ -18,7 +18,9 @@ namespace kadaiyurubo.Application.Domains
 
         public async Task<SongResponse> FetchSongAsync(SongRequest request)
         {
-            return null;
+            var response = await _SDVXSongRepository.GetSongAsync(request);
+
+            return response;
         }
     }
 }
