@@ -25,6 +25,7 @@ namespace kadaiyurubo.Application
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHealthChecks();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -41,6 +42,7 @@ namespace kadaiyurubo.Application
                 app.UseHsts();
             }
 
+            app.UseHealthChecks("/healthz");
             app.UseHttpsRedirection();
             app.UseMvc();
         }
