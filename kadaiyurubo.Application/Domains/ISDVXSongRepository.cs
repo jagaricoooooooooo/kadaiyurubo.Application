@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using kadaiyurubo.Application.Domains.Entities;
 
-namespace kadaiyurubo.Application.Repositories
+namespace kadaiyurubo.Application.Domains
 {
     public interface ISDVXSongRepository
     {
