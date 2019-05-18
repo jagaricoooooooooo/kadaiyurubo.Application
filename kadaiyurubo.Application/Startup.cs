@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+using kadaiyurubo.Application.Domains;
+using kadaiyurubo.Application.Domains.Entities;
+using kadaiyurubo.Application.Repositories;
 
 namespace kadaiyurubo.Application
 {
@@ -32,6 +35,9 @@ namespace kadaiyurubo.Application
             {
                 c.SwaggerDoc("v1", new Info { Title = "kadaiyurubo API", Version = "v1" });
             });
+
+            services.AddScoped<IIIDXSongFetcher, IIDXSongFetcher>();
+            services.AddScoped<IIIDXSongRepository, IIDXSongRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
