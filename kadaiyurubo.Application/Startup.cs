@@ -32,6 +32,7 @@ namespace kadaiyurubo.Application
             {
                 c.SwaggerDoc("v1", new Info { Title = "kadaiyurubo API", Version = "v1" });
             });
+            //ここにDatabaseContextのDI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
