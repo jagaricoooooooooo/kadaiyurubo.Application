@@ -1,8 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>f2e9cb31-8fed-4016-8e0b-c31cb8792b67</UserSecretsId>
+    <LangVersion>7.2</LangVersion>
+    <StartupObject>kadaiyurubo.Application.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructures\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
