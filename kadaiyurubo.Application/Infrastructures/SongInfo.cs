@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using kadaiyurubo.Application.Domains;
+using kadaiyurubo.Application.Domains.Entities;
 
 namespace kadaiyurubo.Application.Infrastructures
 {

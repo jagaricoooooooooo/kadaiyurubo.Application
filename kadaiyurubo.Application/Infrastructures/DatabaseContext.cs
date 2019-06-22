@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using kadaiyurubo.Application.Domains.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace kadaiyurubo.Application.Infrastructures
 {
@@ -7,7 +8,7 @@ namespace kadaiyurubo.Application.Infrastructures
         public DatabaseContext(DbContextOptions<DatabaseContext> options)
              : base(options) { }
 
-        public DbSet<IIDXSongs> IIDXSongs { get; set; }
-        public DbSet<SDVXSongs> SDVXSongs { get; set; }
+        public DbSet<IIDXSong> IIDXSongs { get; set; }
+        public DbSet<SDVXSong> SDVXSongs { get; set; }
     }
 }

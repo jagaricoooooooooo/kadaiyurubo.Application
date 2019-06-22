@@ -1,4 +1,4 @@
-﻿namespace kadaiyurubo.Application.Domains
+﻿namespace kadaiyurubo.Application.Domains.Entities
 {
     public class Song
     {
