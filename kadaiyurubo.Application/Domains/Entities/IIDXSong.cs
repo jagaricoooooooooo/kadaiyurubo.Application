@@ -1,8 +1,6 @@
-﻿using kadaiyurubo.Application.Infrastructures;
-
-namespace kadaiyurubo.Application.Domains.Entities
+﻿namespace kadaiyurubo.Application.Domains.Entities
 {
-    public class IIDXSong : SongInfo
+    public class IIDXSong : Song
     {
     }
 }

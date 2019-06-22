@@ -3,7 +3,7 @@ using kadaiyurubo.Application.Domains.Entities;
 
 namespace kadaiyurubo.Application.Infrastructures
 {
-    public class SongInfo : Song
+    public class IIDXSongDbModel : IIDXSong
     {
         [Key]
         public int Id { get; set; }
